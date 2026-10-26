@@ -1,0 +1,43 @@
+# Local client copies and inspection profiles
+/client/
+/.client-inspection/
+/.client-sandbox/
+/.sandbox-baseline/
+/.sandbox-profile/
+/integration/backups/
+/integration/build/
+/integration/config.json
+/integration/sandbox_manifest.json
+
+# Local databases, raw responses, credentials and logs
+/data/
+/evidence/
+/.env
+/.env.*
+*.log
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.asar
+*.exe
+*.dll
+*.pdb
+
+# Published static snapshots are tracked; other local exports are not
+/output/*
+!/output/static/
+/output/static/*.tmp
+
+# Generated packages and language caches
+/dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Early local assessment; current installation notes live in docs/
+/集成可行性评估.md

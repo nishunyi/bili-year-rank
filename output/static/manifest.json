@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "mode": "static",
+  "snapshot_at": "2026-10-26T17:41:50+08:00",
+  "default_year": 2018,
+  "sitewide_complete": false,
+  "years": [
+    {
+      "year": 2026,
+      "status": "partial",
+      "count": 389,
+      "latest": "2026-10-26T17:38:56+08:00"
+    },
+    {
+      "year": 2025,
+      "status": "partial",
+      "count": 392,
+      "latest": "2026-10-26T17:38:51+08:00"
+    },
+    {
+      "year": 2024,
+      "status": "partial",
+      "count": 443,
+      "latest": "2026-10-26T17:40:00+08:00"
+    },
+    {
+      "year": 2023,
+      "status": "partial",
+      "count": 424,
+      "latest": "2026-10-26T17:39:55+08:00"
+    },
+    {
+      "year": 2022,
+      "status": "partial",
+      "count": 430,
+      "latest": "2026-10-26T17:39:50+08:00"
+    },
+    {
+      "year": 2021,
+      "status": "partial",
+      "count": 435,
+      "latest": "2026-10-26T17:39:45+08:00"
+    },
+    {
+      "year": 2020,
+      "status": "partial",
+      "count": 431,
+      "latest": "2026-10-26T17:39:41+08:00"
+    },
+    {
+      "year": 2019,
+      "status": "partial",
+      "count": 428,
+      "latest": "2026-10-26T17:39:35+08:00"
+    },
+    {
+      "year": 2018,
+      "status": "snapshot",
+      "count": 2851,
+      "latest": "2026-10-26T15:55:29+08:00"
+    },
+    {
+      "year": 2017,
+      "status": "snapshot",
+      "count": 1958,
+      "latest": "2026-10-26T17:18:33+08:00"
+    },
+    {
+      "year": 2016,
+      "status": "partial",
+      "count": 315,
+      "latest": "2026-10-26T17:39:30+08:00"
+    },
+    {
+      "year": 2015,
+      "status": "partial",
+      "count": 196,
+      "latest": "2026-10-26T17:39:25+08:00"
+    },
+    {
+      "year": 2014,
+      "status": "partial",
+      "count": 144,
+      "latest": "2026-10-26T17:39:19+08:00"
+    },
+    {
+      "year": 2013,
+      "status": "partial",
+      "count": 73,
+      "latest": "2026-10-26T17:36:45+08:00"
+    },
+    {
+      "year": 2012,
+      "status": "partial",
+      "count": 69,
+      "latest": "2026-10-26T17:39:09+08:00"
+    },
+    {
+      "year": 2011,
+      "status": "snapshot",
+      "count": 123,
+      "latest": "2026-10-26T14:11:54+08:00"
+    },
+    {
+      "year": 2010,
+      "status": "partial",
+      "count": 62,
+      "latest": "2026-10-26T17:34:02+08:00"
+    },
+    {
+      "year": 2009,
+      "status": "partial",
+      "count": 10,
+      "latest": "2026-10-26T17:27:31+08:00"
+    }
+  ],
+  "total_candidates": 9173,
+  "preparation": {
+    "phase": "paused",
+    "completed": 223,
+    "total": 240
+  }
+}
