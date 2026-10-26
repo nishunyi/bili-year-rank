@@ -8,8 +8,8 @@ const key = Symbol.for('bili.local.yearRank.v1');
 if (!global[key]) {
   global[key] = true;
   const configPath=path.join(__dirname,'config.json');
-  const config=fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath,'utf8')) : {root:path.resolve(__dirname,'..')};
-  const logPath = path.join(config.root, 'data', 'integration.log');
+  const config=global.__yearRankBundle || (fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath,'utf8')) : {root:path.resolve(__dirname,'..')});
+  const logPath = path.join(config.logRoot || path.join(config.root,'data'), 'integration.log');
   const writeLog = (event, detail = '') => {
     try { fs.appendFileSync(logPath, JSON.stringify({time: new Date().toISOString(), event, detail}) + '\n'); } catch (_) {}
   };

@@ -1,5 +1,49 @@
 # 检索覆盖扩展研究
 
+## 2026-10-26：完整增强客户端分发
+
+用户要求完整原版功能加年度榜，目标电脑不需要预装哔哩哔哩、Python 或 Node.js。采用本机已验证的客户端运行文件、原版引导包 1.17.2、公共运行资源 1.19.0，加自有年度榜模块和静态数据。没有另写网页播放器或替换客户端 UI。
+
+实际阅读：[Electron resourcesPath](https://www.electronjs.org/docs/latest/api/process#processresourcespath)、[Electron 22 的 app 路径文档](https://github.com/electron/electron/blob/v22.3.27/docs/api/app.md#appsetpathname-path)、[用户目录设置经验 issue #24536](https://github.com/electron/electron/issues/24536)、[Inno Setup 6.7.3 示例](https://github.com/jrsoftware/issrc/blob/is-6_7_3/Examples/Example1.iss)、[非管理员安装选项](https://jrsoftware.org/ishelp/topic_setup_privilegesrequired.htm)及[官方构建工具下载](https://jrsoftware.org/isdl.php)。文档说明 `userData` 与 `sessionData` 应在应用就绪前设置；历史 issue 说明仅修改一条目录配置不代表所有缓存都迁移，所以需要实测空用户目录启动。
+
+只读分析原版引导层确认其原生支持 exe 旁的 `versions/` 作为固定资源目录。内置 1.19.0 ASAR、`.version`、`.biliapp` 和 `.bilijsc` 四个公共代码文件；不复制 AppData 中的其他文件。`.appInfo` 是 `app-update.yml` 创建时间的散列，在目标电脑启动时生成，不能直接复制本机值，否则原版可能重置资源版本。
+
+引导层仅在 `index.js` 开头加载 `process.resourcesPath/year-rank/bootstrap.cjs`，热更新 ASAR 保持原始字节。所有自有模块和快照都放在资源目录，不含开发者绝对路径。增强版在就绪前设置独立的 `bili-year-rank-enhanced` 用户目录和 Chromium 会话目录，日志写入该目录。
+
+安装器使用 Inno Setup 6.7.3，默认按用户安装到 LocalAppData，创建桌面和开始菜单入口，卸载只移除自身安装文件。构建器只复制指定客户端文件及公共资源，排除原版卸载器、开发环境、账户数据和本机配置。源码仓库继续排除第三方二进制和本地构建产物。
+
+编译器未附带简体中文消息文件，按[官方源码中的社区翻译](https://github.com/jrsoftware/issrc/blob/is-6_7_3/Files/Languages/Unofficial/ChineseSimplified.isl)补充，保留作者说明，固定到与编译器一致的 tag。
+
+### 官方更新检查及风险
+
+完整包保留原 `app-update.yml` 和 `electron-updater 5.3.0`。在空白增强版用户目录中实际启动，官方 `UpdateService` 完成检查：热更新列表包含 1.19.0 / 1.18.0 / 1.17.9；本次整包更新接口返回 latest 1.9.0，安装版 1.17.2 不满足更新条件，因此无实际新整包可用于升级验证。该返回只代表此次设备 / 灰度请求，不能代表所有用户或未来更新。
+
+读取本机 `electron-updater` 的 `NsisUpdater.doInstall` 和 `BaseUpdater` 确认整包更新会启动官方下载的 NSIS 安装器，不经过本项目的 Inno 安装器，不能声称会保留注入入口；资源热更新也可能改动 Vue 路由和布局。没有更改官方更新源、伪造更新结果或关闭其通知。
+
+增加独立启动器核对引导文件 SHA-256 和已验证的资源版本；未知变更后提示获取适配增强包，也允许继续启动客户端。不自动回滚新官方文件，不对未知包重新打补丁。参考[微软编译器输出选项](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/output)和[进程启动文档](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.processstartinfo.useshellexecute?view=netframework-4.8.1)，使用 Windows 自带 .NET Framework 编译普通 GUI 启动器，无命令行窗口。
+
+### 完整包验证记录
+
+- 25 项原有测试、渲染器 / 引导模块 JavaScript 语法及静态桥接检查通过。
+- 133 个分发文件通过 SHA-256 清单校验，18 年 9,173 条候选及 HTTPS 封面齐全；包内没有账户文件、本机配置和开发者路径。
+- 在含空格及中文的另一安装路径完成安装、卸载、重新安装和启动器检查；空白增强版用户目录完成客户端主窗口加载，官方更新服务正常检查。运行进程来自该独立目录；尚未在完全没有原版安装记录的另一台电脑验证。
+- 在临时目录移动启动器及相关校验文件后检查成功；模拟资源版本改为 1.20.0 和引导包被官方文件覆盖时，启动器均报告不兼容。
+- 本轮桌面进入锁屏，按 computer-use 规则停止 UI 输入。完整包中的年度榜点击和原生播放器端到端验证仍待解锁后继续；此前开发副本已验证主页面切换，不冒充完整安装包的播放验证。
+
+## 2026-10-26：年度榜作为侧栏主页面
+
+适用环境：安装版引导包 1.17.2、热更新资源 1.19.0，复用客户端现有 Vue 3 和 Vue Router，不安装或替换框架。只读检查当前热更新包，确认 `Page` 为主布局路由，`Home`、`Selected` 为其子路由；详情页通过 `meta.isSubPage` 区分。
+
+实际阅读的来源：
+
+- [Vue Router 动态路由](https://router.vuejs.org/guide/advanced/dynamic-routing.html)：`addRoute(parentName, route)` 注册嵌套路由；若当前 URL 已指向新路由，添加后需重新匹配。
+- [Vue 应用全局属性](https://vuejs.org/api/application.html#app-config-globalproperties)：通过现有应用的 `$router` 复用路由。客户端把应用挂在 `#app.__vue_app__`，这是实测的内部入口，后续客户端更新可能变化。
+- [Vue KeepAlive 生命周期](https://vuejs.org/guide/built-ins/keep-alive.html#lifecycle-of-cached-instance)：在挂载 / 激活时显示榜单，在停用 / 卸载时隐藏；路由离开后也由 `afterEach` 清理显示状态。
+
+采用 `Page` 下的 `/page/local-year-rank` 路由，设置 `isSubPage:false`。主内容承载于 `.app_container`，入口复用 `.app_sidebar--pages-wrap` 的原生列表结构和选中样式。没有侧栏时不渲染入口，避免启动阶段出现左下角备用按钮。页面自身继续使用 Shadow DOM，独立静态 HTML 保留原来的布局。
+
+验证：确认运行进程位于项目 `client/` 副本后，实际点击年度榜，观察 URL 为 `/page/local-year-rank`；榜单占主内容区，显示封面。点击首页后回到 `/page/home/recommends`，再次进入榜单正常；点击精选后回到 `/page/selected`，年度榜不再覆盖原页面。原生播放器未在本轮验证。
+
 ## 2026-10-26：静态榜单封面修复
 
 静态导出曾把 `cover` 固定为空，渲染器只输出播放占位符，导致所有封面缺失。检查已有搜索缓存确认 9,173 个候选均含 `pic`，来源为 `i0/i1/i2.hdslb.com`，不需要重新调用搜索接口。
