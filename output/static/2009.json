@@ -1,7 +1,7 @@
 {
   "year": 2009,
   "status": "partial",
-  "snapshot_at": "2026-10-26T17:41:50+08:00",
+  "snapshot_at": "2026-10-26T19:34:11+08:00",
   "latest": "2026-10-26T17:27:31+08:00",
   "notice": "固定候选快照，播放量以条目采集时间为准。 本轮整理尚未全部完成，当前显示已保存的静态结果。",
   "candidate_count": 10,
@@ -19,7 +19,7 @@
       "play_at": "2026-10-26T17:27:31+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411c7mM",
       "rank": 1,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/53030d1f6253a9e1153bf93d75261604d6101fdc.jpg"
     },
     {
       "bvid": "BV1xx411c7oY",
@@ -33,7 +33,7 @@
       "play_at": "2026-10-26T17:19:19+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411c7oY",
       "rank": 2,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/12edf7451d0f51b41838d2a979916c5fc38e6182.jpg"
     },
     {
       "bvid": "BV14x411c7wF",
@@ -47,7 +47,7 @@
       "play_at": "2026-10-26T17:27:31+08:00",
       "url": "https://www.bilibili.com/video/BV14x411c7wF",
       "rank": 3,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/151d4ce868cb037a519b00e5cff12974c98fed0c.jpg"
     },
     {
       "bvid": "BV14x411c7ct",
@@ -61,7 +61,7 @@
       "play_at": "2026-10-26T17:27:31+08:00",
       "url": "https://www.bilibili.com/video/BV14x411c7ct",
       "rank": 4,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/45af164c59844566d3442aef2c37704aa7cadb4a.jpg"
     },
     {
       "bvid": "BV1xx411c7UT",
@@ -75,7 +75,7 @@
       "play_at": "2026-10-26T17:27:31+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411c7UT",
       "rank": 5,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/6052ead6814e5e8a00b688614c74b340324cdc99.jpg"
     },
     {
       "bvid": "BV1xx411c72a",
@@ -89,7 +89,7 @@
       "play_at": "2026-10-26T17:27:31+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411c72a",
       "rank": 6,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/663a0c37eefa7ce9a90dea7d62935b542ff44654.jpg"
     },
     {
       "bvid": "BV1xx411c72H",
@@ -103,7 +103,7 @@
       "play_at": "2026-10-26T17:27:31+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411c72H",
       "rank": 7,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/b86547f0e6878b51a0b10c066c1715a844069b98.jpg"
     },
     {
       "bvid": "BV1xx411c7DZ",
@@ -117,7 +117,7 @@
       "play_at": "2026-10-26T17:27:31+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411c7DZ",
       "rank": 8,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/4c68ebab672d0a4b4e1ed9b673756aa0e2eabedc.jpg"
     },
     {
       "bvid": "BV14x411c7cH",
@@ -131,7 +131,7 @@
       "play_at": "2026-10-26T17:19:19+08:00",
       "url": "https://www.bilibili.com/video/BV14x411c7cH",
       "rank": 9,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/0c52d45ebd43045d7b7bd81beabbc7fe3859ff87.jpg"
     },
     {
       "bvid": "BV1xx411c792",
@@ -145,7 +145,7 @@
       "play_at": "2026-10-26T17:19:19+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411c792",
       "rank": 10,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/8e60a17ef987e7dafbc7dac8d7b9f89387f01bd6.jpg"
     }
   ]
 }

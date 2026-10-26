@@ -8,7 +8,7 @@ from unittest.mock import patch
 import bili_rank
 import prepare_static
 from bili_rank import RiskStop, Store, bounds
-from build_static import build
+from build_static import build,cached_covers,cover_url
 
 
 class StaticTests(unittest.TestCase):
@@ -19,6 +19,7 @@ class StaticTests(unittest.TestCase):
             item={'bvid':'BV14b411w7zx','pubdate':bounds(2018)[0],
                   'play':200,'title':'&lt;/script&gt;&lt;script&gt;alert(1)&lt;/script&gt;','author':'UP'}
             store.ingest([item],2018,'已有词')
+            store.save_page(2018,'已有词',1,30,{'result':[{**item,'pic':'//i0.hdslb.com/bfs/archive/cover.jpg'}]})
             (root/'static_preparation.json').write_text(json.dumps({'years':[2018],
                 'terms':['2018','动画'],'completed':['2018:2018'],'phase':'paused'}),encoding='utf-8')
             manifest=build(root/'videos.sqlite3',root/'static',2018)
@@ -27,6 +28,7 @@ class StaticTests(unittest.TestCase):
             snapshot=json.loads(before)
             self.assertEqual(snapshot['videos'][0]['rank'],1)
             self.assertEqual(snapshot['videos'][0]['play'],200)
+            self.assertEqual(snapshot['videos'][0]['cover'],'https://i0.hdslb.com/bfs/archive/cover.jpg')
             self.assertEqual(snapshot['status'],'partial')
             self.assertIn('尚未全部完成',snapshot['notice'])
             self.assertEqual(len(manifest['years']),10)
@@ -38,6 +40,21 @@ class StaticTests(unittest.TestCase):
             store.ingest([{**item,'play':300}],2018,'已有词')
             self.assertEqual(year_file.read_bytes(),before)
             store.close()
+
+    def test_cover_cache_keeps_latest_valid_url_and_normalizes_https(self):
+        with tempfile.TemporaryDirectory() as directory:
+            store=Store(Path(directory)/'videos.sqlite3')
+            try:
+                for index,pic in enumerate(('//i0.hdslb.com/old.jpg','http://i1.hdslb.com/new.jpg',
+                                           'https://i1.hdslb.com.evil.example/untrusted.jpg')):
+                    term=f'词{index}'
+                    store.save_page(2018,term,1,30,{'result':[{'bvid':'BV14b411w7zx','pic':pic}]})
+                    store.db.execute('UPDATE pages SET fetched_at=? WHERE keyword=?',(index,term))
+                store.db.commit()
+                self.assertEqual(cached_covers(store)['BV14b411w7zx'],'https://i1.hdslb.com/new.jpg')
+                for bad in ('javascript:alert(1)','data:image/svg+xml,test','https://user@i0.hdslb.com/p.jpg',None):
+                    self.assertEqual(cover_url(bad),'')
+            finally:store.close()
 
     def test_preparation_stops_batch_on_risk_and_resumes_fixed_tasks(self):
         with tempfile.TemporaryDirectory() as directory:

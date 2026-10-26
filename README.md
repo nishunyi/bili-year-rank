@@ -13,6 +13,7 @@
 - [x] 按累计播放量或发布时间排序
 - [x] 按标题、UP 主、BV 号和最低播放量筛选
 - [x] 筛选后保留原榜名次
+- [x] 视频封面在线加载，支持懒加载与失败占位
 - [x] 单文件 HTML，打开即可使用
 - [x] Windows 桌面客户端侧栏入口（实验性）
 
@@ -24,7 +25,7 @@
 2. 打开 `index.html`。
 3. 选择发布年份，点击视频标题或播放按钮打开视频网页。
 
-也可下载本仓库，直接打开 [output/static/index.html](output/static/index.html)。浏览榜单不需要 Python、Node.js 或本地服务器，播放视频需要联网。
+也可下载本仓库，直接打开 [output/static/index.html](output/static/index.html)。浏览榜单不需要 Python、Node.js 或本地服务器。榜单文字数据可离线浏览，封面加载和视频播放需要联网。
 
 ### Windows 桌面集成
 

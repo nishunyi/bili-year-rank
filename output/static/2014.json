@@ -1,7 +1,7 @@
 {
   "year": 2014,
   "status": "partial",
-  "snapshot_at": "2026-10-26T17:41:50+08:00",
+  "snapshot_at": "2026-10-26T19:34:11+08:00",
   "latest": "2026-10-26T17:39:19+08:00",
   "notice": "固定候选快照，播放量以条目采集时间为准。 本轮整理尚未全部完成，当前显示已保存的静态结果。",
   "candidate_count": 144,
@@ -19,7 +19,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Ss411o7vY",
       "rank": 1,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/a99852b7924e7f0fc6b6195e2910b6c0fc035a66.jpg"
     },
     {
       "bvid": "BV1fx411P7JM",
@@ -33,7 +33,7 @@
       "play_at": "2026-10-26T17:22:52+08:00",
       "url": "https://www.bilibili.com/video/BV1fx411P7JM",
       "rank": 2,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/62f15b66eb37f547d610d611d1a410b80329e785.jpg"
     },
     {
       "bvid": "BV14x411P7wA",
@@ -47,7 +47,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV14x411P7wA",
       "rank": 3,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/b7a41334ce6760373de3d5d04451e92c5cbe4746.jpg"
     },
     {
       "bvid": "BV15x411P7ft",
@@ -61,7 +61,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV15x411P7ft",
       "rank": 4,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/d6b4bf808d955cbf9557f195b66791b1f7393f89.jpg"
     },
     {
       "bvid": "BV1Fx411N7VF",
@@ -75,7 +75,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Fx411N7VF",
       "rank": 5,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/b53fc137f1e8546915ad5c719578bf9cc6b132a6.jpg"
     },
     {
       "bvid": "BV1dx411P79c",
@@ -89,7 +89,7 @@
       "play_at": "2026-10-26T17:29:10+08:00",
       "url": "https://www.bilibili.com/video/BV1dx411P79c",
       "rank": 6,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/263a6d9972f7c00481ae45e4a4d0efbea8d334c9.jpg"
     },
     {
       "bvid": "BV1wx411N7Cx",
@@ -103,7 +103,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1wx411N7Cx",
       "rank": 7,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/6b8ab71faf0498743b7751d2c393de90e44d4038.jpg"
     },
     {
       "bvid": "BV1ux411K75r",
@@ -117,7 +117,7 @@
       "play_at": "2026-10-26T17:36:50+08:00",
       "url": "https://www.bilibili.com/video/BV1ux411K75r",
       "rank": 8,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/0175f1f423b73bc26ce1837f6d220cfd3c060446.jpg"
     },
     {
       "bvid": "BV1Gs411Z7bZ",
@@ -131,7 +131,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Gs411Z7bZ",
       "rank": 9,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/b768a2a4206bcae9c269a6a86bc8118a1cc42344.jpg"
     },
     {
       "bvid": "BV1fs411o7C6",
@@ -145,7 +145,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1fs411o7C6",
       "rank": 10,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/59c99d5cc9044de399e3b2496b59762e94209307.jpg"
     },
     {
       "bvid": "BV1Ux411w7NR",
@@ -159,7 +159,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Ux411w7NR",
       "rank": 11,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/945124ef33879c6919cb6d3a8e013f80187c2209.jpg"
     },
     {
       "bvid": "BV1Qs411o7iY",
@@ -173,7 +173,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Qs411o7iY",
       "rank": 12,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/5e887a112ef4d6f1240e80e05bb1698cf7bbbe0f.jpg"
     },
     {
       "bvid": "BV16x411K7hW",
@@ -187,7 +187,7 @@
       "play_at": "2026-10-26T17:31:47+08:00",
       "url": "https://www.bilibili.com/video/BV16x411K7hW",
       "rank": 13,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/33691986d1419a51d190c396e05363806f808765.jpg"
     },
     {
       "bvid": "BV1fs411o7w9",
@@ -201,7 +201,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1fs411o7w9",
       "rank": 14,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/fe84cd22440c9dea5327b9453ef51122c975ddd0.jpg"
     },
     {
       "bvid": "BV1Kx411P7oU",
@@ -215,7 +215,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Kx411P7oU",
       "rank": 15,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/f11f404a1bf02d8a70b0f201b318a77523950501.jpg"
     },
     {
       "bvid": "BV1Wx411T72H",
@@ -229,7 +229,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Wx411T72H",
       "rank": 16,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/5fedc0f58a805348ac43f01c687b69148ee87469.jpg"
     },
     {
       "bvid": "BV1Mx411K7cY",
@@ -243,7 +243,7 @@
       "play_at": "2026-10-26T17:34:18+08:00",
       "url": "https://www.bilibili.com/video/BV1Mx411K7cY",
       "rank": 17,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/9ec6a7340b9e123300bd6ed3cd210b21c9642fce.jpg"
     },
     {
       "bvid": "BV1Ax411M7JY",
@@ -257,7 +257,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Ax411M7JY",
       "rank": 18,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/a5f4a4e0f7aad7d97f25836cb5a4c2480410c450.jpg"
     },
     {
       "bvid": "BV1Js411Z7KF",
@@ -271,7 +271,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Js411Z7KF",
       "rank": 19,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/275413d97990ba2ced81346d18dcb60bee579b48.jpg"
     },
     {
       "bvid": "BV1cx411N7mD",
@@ -285,7 +285,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1cx411N7mD",
       "rank": 20,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/8a5427620db239d348f0d245a7a1426bda30773d.jpg"
     },
     {
       "bvid": "BV1yx411P7BD",
@@ -299,7 +299,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1yx411P7BD",
       "rank": 21,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/ee00507a23507cada0f9c97f31e4fa28d361254b.jpg"
     },
     {
       "bvid": "BV1Xx411N7fG",
@@ -313,7 +313,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Xx411N7fG",
       "rank": 22,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/8cc363bafc9f25511e99627530b44a3d41bfd016.jpg"
     },
     {
       "bvid": "BV1xs411Z7Fi",
@@ -327,7 +327,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1xs411Z7Fi",
       "rank": 23,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/fa2636885d9a82073808c0f8c2bababa8a7e7bc4.jpg"
     },
     {
       "bvid": "BV1Rx411K7ii",
@@ -341,7 +341,7 @@
       "play_at": "2026-10-26T17:38:04+08:00",
       "url": "https://www.bilibili.com/video/BV1Rx411K7ii",
       "rank": 24,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/001902cf3ce9dff25800bd2a4c57575f8a190e65.jpg"
     },
     {
       "bvid": "BV18x411T7UF",
@@ -355,7 +355,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV18x411T7UF",
       "rank": 25,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/f636269fb27bcef94eed7d26551f1941a923d4f8.jpg"
     },
     {
       "bvid": "BV1ix411P73y",
@@ -369,7 +369,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1ix411P73y",
       "rank": 26,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/74004e24f0e079ae38d3fc6214b6613ca637734c.jpg"
     },
     {
       "bvid": "BV1hx411K7RE",
@@ -383,7 +383,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1hx411K7RE",
       "rank": 27,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/ff4835c1469592ce587875173017f4a34199f42b.jpg"
     },
     {
       "bvid": "BV1Tx411N7Ar",
@@ -397,7 +397,7 @@
       "play_at": "2026-10-26T17:33:02+08:00",
       "url": "https://www.bilibili.com/video/BV1Tx411N7Ar",
       "rank": 28,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/1083065a56c1aa02791611cf3fa685f03e11f4ac.jpg"
     },
     {
       "bvid": "BV19x411N7Zj",
@@ -411,7 +411,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV19x411N7Zj",
       "rank": 29,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/ac062a6378c7739180a284c317c92f3e4f4a868f.jpg"
     },
     {
       "bvid": "BV1Ex411N7bw",
@@ -425,7 +425,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Ex411N7bw",
       "rank": 30,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/cb35657cd4c53defc1c8d742f426275b23132338.jpg"
     },
     {
       "bvid": "BV1Jx411N7bv",
@@ -439,7 +439,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Jx411N7bv",
       "rank": 31,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/7c592167946205675ebab3f54177f39131c4ead3.jpg"
     },
     {
       "bvid": "BV1Ex411K7DL",
@@ -453,7 +453,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Ex411K7DL",
       "rank": 32,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/3b578f8b384756aa07cfa3b715504db7c2a90a86.jpg"
     },
     {
       "bvid": "BV1Gs411Z7DL",
@@ -467,7 +467,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Gs411Z7DL",
       "rank": 33,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/e85bcf88030af034669d2938eae4cb424f80d436.jpg"
     },
     {
       "bvid": "BV1nx411T7FQ",
@@ -481,7 +481,7 @@
       "play_at": "2026-10-26T17:33:02+08:00",
       "url": "https://www.bilibili.com/video/BV1nx411T7FQ",
       "rank": 34,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/2d6a482ce61c2fc2a48d3e326763e541262a1022.jpg"
     },
     {
       "bvid": "BV1Vx411P7hV",
@@ -495,7 +495,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Vx411P7hV",
       "rank": 35,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/b6b78a9ef5172c57945624f3aeb448ecf0b83140.jpg"
     },
     {
       "bvid": "BV1Wx411K7o8",
@@ -509,7 +509,7 @@
       "play_at": "2026-10-26T17:33:02+08:00",
       "url": "https://www.bilibili.com/video/BV1Wx411K7o8",
       "rank": 36,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/11d099e890a6f200a9985a5cf8f4633e0124ff2e.jpg"
     },
     {
       "bvid": "BV1Px411K72H",
@@ -523,7 +523,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Px411K72H",
       "rank": 37,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/8a8f39d3ae3d19a46b46db98c6c8c5da0cec35aa.jpg"
     },
     {
       "bvid": "BV1qx411N7yD",
@@ -537,7 +537,7 @@
       "play_at": "2026-10-26T17:35:34+08:00",
       "url": "https://www.bilibili.com/video/BV1qx411N7yD",
       "rank": 38,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/b0df8ad6df4aa3dea4841d03b87a165def20cbf8.jpg"
     },
     {
       "bvid": "BV17x411N7XM",
@@ -551,7 +551,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV17x411N7XM",
       "rank": 39,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/a57774a889f7e1bfa8006ce41d5d6088076f7225.jpg"
     },
     {
       "bvid": "BV1qx411P71K",
@@ -565,7 +565,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1qx411P71K",
       "rank": 40,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/bb4e8c6ef6f07420dae3f1303c2db18a027abeb8.jpg"
     },
     {
       "bvid": "BV1gs411Z76s",
@@ -579,7 +579,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1gs411Z76s",
       "rank": 41,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/5759381bcd1423bf7ae53ccbd4c8400d60d8cd5c.jpg"
     },
     {
       "bvid": "BV1cs411Z7Lu",
@@ -593,7 +593,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1cs411Z7Lu",
       "rank": 42,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/4a9c6858c90580d22a8b9c9fa75c38710becde34.jpg"
     },
     {
       "bvid": "BV1fs411o7pZ",
@@ -607,7 +607,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1fs411o7pZ",
       "rank": 43,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/7a0d98e563b8a100be858305d7390af4b6be853e.jpg"
     },
     {
       "bvid": "BV1hx411T72H",
@@ -621,7 +621,7 @@
       "play_at": "2026-10-26T17:35:34+08:00",
       "url": "https://www.bilibili.com/video/BV1hx411T72H",
       "rank": 44,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/8dae22130c2770c73cda4b8fe86dcd09c946f815.png"
     },
     {
       "bvid": "BV1yx411T74V",
@@ -635,7 +635,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1yx411T74V",
       "rank": 45,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/b0e028038506321bf9ec4bb10a6a6d7139104a29.jpg"
     },
     {
       "bvid": "BV1ax411T7nz",
@@ -649,7 +649,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1ax411T7nz",
       "rank": 46,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/6c1f0a6cf83a62b8be83a12f01c3b382b0c65c17.jpg"
     },
     {
       "bvid": "BV1Nx411N7Pc",
@@ -663,7 +663,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Nx411N7Pc",
       "rank": 47,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/9c14ec719f57f2516730b2445cbc15f7a8a89cbe.jpg"
     },
     {
       "bvid": "BV1rx411N7dM",
@@ -677,7 +677,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1rx411N7dM",
       "rank": 48,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/decc623aa77a3769054758c47c1c93b3ada40843.png"
     },
     {
       "bvid": "BV1ox411N7VF",
@@ -691,7 +691,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1ox411N7VF",
       "rank": 49,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/331d13b7d4521e61722b366da2fad671ac46770c.jpg"
     },
     {
       "bvid": "BV1ox411N76R",
@@ -705,7 +705,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1ox411N76R",
       "rank": 50,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/42b2c81c2070e0056aa5ee916ab782f5f4c56a7f.jpg"
     },
     {
       "bvid": "BV1Ns411Z7L4",
@@ -719,7 +719,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Ns411Z7L4",
       "rank": 51,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/5e887a112ef4d6f1240e80e05bb1698cf7bbbe0f.jpg"
     },
     {
       "bvid": "BV1nx411N7uL",
@@ -733,7 +733,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1nx411N7uL",
       "rank": 52,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/98095ec3bed19e251dbdc076cfbfa7bb0c2e5e91.jpg"
     },
     {
       "bvid": "BV1Rx411N7aT",
@@ -747,7 +747,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Rx411N7aT",
       "rank": 53,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/821284ed4561c1cbd755283937d34fae0f7808f4.jpg"
     },
     {
       "bvid": "BV1ts411Z7Yg",
@@ -761,7 +761,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1ts411Z7Yg",
       "rank": 54,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/a47e11dda5484fd55acb09a8ecaffc0e5712c68a.jpg"
     },
     {
       "bvid": "BV1Ex411P7RZ",
@@ -775,7 +775,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Ex411P7RZ",
       "rank": 55,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/4da06909fd859c6869598afce3c3ed9b9e8174f1.jpg"
     },
     {
       "bvid": "BV1bs411Z7s9",
@@ -789,7 +789,7 @@
       "play_at": "2026-10-26T17:35:34+08:00",
       "url": "https://www.bilibili.com/video/BV1bs411Z7s9",
       "rank": 56,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/63916a0bf210a1c54180a546c9c67bb255d756e5.jpg"
     },
     {
       "bvid": "BV16x411N7Du",
@@ -803,7 +803,7 @@
       "play_at": "2026-10-26T17:35:34+08:00",
       "url": "https://www.bilibili.com/video/BV16x411N7Du",
       "rank": 57,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/69ad2787f8719ddc174ae6cd833973650fef7856.jpg"
     },
     {
       "bvid": "BV1Gx411T75b",
@@ -817,7 +817,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Gx411T75b",
       "rank": 58,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/895a39dc75b656863e2b8d8cac315169b5009231.jpg"
     },
     {
       "bvid": "BV14x411K7J7",
@@ -831,7 +831,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV14x411K7J7",
       "rank": 59,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/27ae236222620f9877178ea488b867341b2e7d52.jpg"
     },
     {
       "bvid": "BV1Zx411K7iW",
@@ -845,7 +845,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Zx411K7iW",
       "rank": 60,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/b33097460f89181117fa336ba36808cd143582f2.jpg"
     },
     {
       "bvid": "BV19x411P7U4",
@@ -859,7 +859,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV19x411P7U4",
       "rank": 61,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/c7eb9fa81a7d12dc1f40b6fc38a6b922d2044368.jpg"
     },
     {
       "bvid": "BV1Lx411T7qc",
@@ -873,7 +873,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Lx411T7qc",
       "rank": 62,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/6f1fde3e0b01f02c8bfd00f78591a9d8262159ed.jpg"
     },
     {
       "bvid": "BV17x411P7Tg",
@@ -887,7 +887,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV17x411P7Tg",
       "rank": 63,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/e3a03886533dfd4014e4f144b6be38cbcea86ec6.jpg"
     },
     {
       "bvid": "BV1Ex411P7nF",
@@ -901,7 +901,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Ex411P7nF",
       "rank": 64,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/29c901565fa728691aff4f439bc15761fef86ace.jpg"
     },
     {
       "bvid": "BV1jx411T7Nh",
@@ -915,7 +915,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1jx411T7Nh",
       "rank": 65,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/dd23dcb37da377cb191a899d6daf583587df5331.jpg"
     },
     {
       "bvid": "BV1Mx411N7oc",
@@ -929,7 +929,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Mx411N7oc",
       "rank": 66,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/49b2a60024cdb77ad32a9233f320067543e9dedd.jpg"
     },
     {
       "bvid": "BV1gs411Z7Lv",
@@ -943,7 +943,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1gs411Z7Lv",
       "rank": 67,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/d9322ffc9bc6a8e1b5879c51ef026f516ad9fc0e.jpg"
     },
     {
       "bvid": "BV1Kx411N7LV",
@@ -957,7 +957,7 @@
       "play_at": "2026-10-26T17:27:51+08:00",
       "url": "https://www.bilibili.com/video/BV1Kx411N7LV",
       "rank": 68,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/495d48a5aa738f9a8e9812c7e44ad4bcec382761.jpg"
     },
     {
       "bvid": "BV1is411Z7ed",
@@ -971,7 +971,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1is411Z7ed",
       "rank": 69,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/773a7428a06ea42fde42609a01a980c9b92a1bd2.jpg"
     },
     {
       "bvid": "BV1rx411P7Gx",
@@ -985,7 +985,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1rx411P7Gx",
       "rank": 70,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/845132d422db4cd29855c1b86dac0c60087f2f10.jpg"
     },
     {
       "bvid": "BV1Jx411P7KY",
@@ -999,7 +999,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Jx411P7KY",
       "rank": 71,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/555cf7c180b771573f88af6065fce8419ca38c1e.jpg"
     },
     {
       "bvid": "BV1As411Z71p",
@@ -1013,7 +1013,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1As411Z71p",
       "rank": 72,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/e04f60e3e7325bc15403eb7206731847b60966ed.jpg"
     },
     {
       "bvid": "BV1Kx411P7xT",
@@ -1027,7 +1027,7 @@
       "play_at": "2026-10-26T17:33:02+08:00",
       "url": "https://www.bilibili.com/video/BV1Kx411P7xT",
       "rank": 73,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/5d07e3bfd94684e042a43afb2a4d9013fd569992.jpg"
     },
     {
       "bvid": "BV1qx411T7zH",
@@ -1041,7 +1041,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1qx411T7zH",
       "rank": 74,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/43da7bd564e227d4fa944c83ab7a8ace98f5678b.jpg"
     },
     {
       "bvid": "BV1sx411P7Le",
@@ -1055,7 +1055,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1sx411P7Le",
       "rank": 75,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/5523efdaea10c1779859b4bb677b38f9d449a6d6.jpg"
     },
     {
       "bvid": "BV1Px411P725",
@@ -1069,7 +1069,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Px411P725",
       "rank": 76,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/2be02d8d9947e3c11280509abd4afb6f989ab47d.jpg"
     },
     {
       "bvid": "BV1Qx411K7ng",
@@ -1083,7 +1083,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Qx411K7ng",
       "rank": 77,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/6538c4355bd6448264333f1b5630af719dcd9029.jpg"
     },
     {
       "bvid": "BV1Lx411P7dh",
@@ -1097,7 +1097,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Lx411P7dh",
       "rank": 78,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/051fa47ca990f45532c34252e73252e1524a1691.png"
     },
     {
       "bvid": "BV1Jx411T7yo",
@@ -1111,7 +1111,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Jx411T7yo",
       "rank": 79,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/1a248e93960ce5e33cb08513ad7b106b31b594bb.jpg"
     },
     {
       "bvid": "BV19x411K76j",
@@ -1125,7 +1125,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV19x411K76j",
       "rank": 80,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/0ef6ea4017f1d00ae19df57aa6bbe2e55f7a57d9.jpg"
     },
     {
       "bvid": "BV1Nx411P7GR",
@@ -1139,7 +1139,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Nx411P7GR",
       "rank": 81,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/2a0eb3afb475b3e879f9e68f820f1a8d4d48c307.jpg"
     },
     {
       "bvid": "BV15x411K7AG",
@@ -1153,7 +1153,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV15x411K7AG",
       "rank": 82,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/1cf78a7b78638645c34f8f6f1351678a92d40bce.jpg"
     },
     {
       "bvid": "BV1Ux411w7vP",
@@ -1167,7 +1167,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Ux411w7vP",
       "rank": 83,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/1acdc86cd907f71024528dd8ceceae0d380a3e2d.jpg"
     },
     {
       "bvid": "BV1Hx411P7ui",
@@ -1181,7 +1181,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Hx411P7ui",
       "rank": 84,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/e2a3e8e7b53b9a088aabfceea909e34585c6405c.jpg"
     },
     {
       "bvid": "BV1Qs411o7tP",
@@ -1195,7 +1195,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Qs411o7tP",
       "rank": 85,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/4cdc8f9ce059a362173c11ce3a659caee3752a49.jpg"
     },
     {
       "bvid": "BV1nx411N79E",
@@ -1209,7 +1209,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1nx411N79E",
       "rank": 86,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/e971c2eb4ec361c905eaf83ba6f02649e6abc579.jpg"
     },
     {
       "bvid": "BV1Lx411N7LV",
@@ -1223,7 +1223,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Lx411N7LV",
       "rank": 87,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/3da6c7f3431180085c181176092834cfe77bcbbe.jpg"
     },
     {
       "bvid": "BV1Jx411T7ME",
@@ -1237,7 +1237,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Jx411T7ME",
       "rank": 88,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/e8d33608cd350924e76d9db4ef756c134ad3c5e9.jpg"
     },
     {
       "bvid": "BV1vx411P7Uy",
@@ -1251,7 +1251,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1vx411P7Uy",
       "rank": 89,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/b9005a1151716c7dc08bb6c45575da72b7554267.jpg"
     },
     {
       "bvid": "BV1yx411P756",
@@ -1265,7 +1265,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1yx411P756",
       "rank": 90,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/b6871a821b3d616aa7d0ae233e9580f3836412c7.jpg"
     },
     {
       "bvid": "BV1nx411T7oN",
@@ -1279,7 +1279,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1nx411T7oN",
       "rank": 91,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/baa9c82393bc1cb47a40ccebc62fa8c366d19ce2.jpg"
     },
     {
       "bvid": "BV1Gs411Z7jW",
@@ -1293,7 +1293,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1Gs411Z7jW",
       "rank": 92,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/825d41952789f2582eddf2aea0139c0615e4985e.jpg"
     },
     {
       "bvid": "BV1Jx411K7UR",
@@ -1307,7 +1307,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Jx411K7UR",
       "rank": 93,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/7e9cf5b893e04cc4e0bab2a29ed343067792bd6c.jpg"
     },
     {
       "bvid": "BV11x411T7hG",
@@ -1321,7 +1321,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV11x411T7hG",
       "rank": 94,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/fcf8edc8509f3efcb56e07411c2e7d146fad14f5.jpg"
     },
     {
       "bvid": "BV1ix411T7xa",
@@ -1335,7 +1335,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1ix411T7xa",
       "rank": 95,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/1cbe0e8350b239dd64118fc77848fc76f3a30c0f.jpg"
     },
     {
       "bvid": "BV1fs411o768",
@@ -1349,7 +1349,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1fs411o768",
       "rank": 96,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/35f74bb0b706358ce0986dd7aed8bbb4ff5868c5.jpg"
     },
     {
       "bvid": "BV1hx411N7JK",
@@ -1363,7 +1363,7 @@
       "play_at": "2026-10-26T17:26:36+08:00",
       "url": "https://www.bilibili.com/video/BV1hx411N7JK",
       "rank": 97,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/294bdd4622359c1c0b3c371abacf4d248b7bd777.jpg"
     },
     {
       "bvid": "BV1Hs411Z7ma",
@@ -1377,7 +1377,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Hs411Z7ma",
       "rank": 98,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/3047fa27db6667e5aa5c30f8876d8c9e6b17ac94.png"
     },
     {
       "bvid": "BV1Hx411N7ir",
@@ -1391,7 +1391,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Hx411N7ir",
       "rank": 99,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/a54d28deb48f822e2f55aa55aaafd928fce65586.jpg"
     },
     {
       "bvid": "BV14x411N7DF",
@@ -1405,7 +1405,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV14x411N7DF",
       "rank": 100,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/8ba2738a8203af3e29f4e7d11d4210e943204187.jpg"
     },
     {
       "bvid": "BV1bx411P7yo",
@@ -1419,7 +1419,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1bx411P7yo",
       "rank": 101,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/7c6c3dd40764ee3fa09dc9fabe22757b5e312996.jpg"
     },
     {
       "bvid": "BV1Ex411N7Mz",
@@ -1433,7 +1433,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Ex411N7Mz",
       "rank": 102,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/4f844ce95dc53fc9086e23e34562839a4ccd22d2.jpg"
     },
     {
       "bvid": "BV1fs411o7J3",
@@ -1447,7 +1447,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1fs411o7J3",
       "rank": 103,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/1ab95f0124c14c8e23cc0eaea10475618e3fdbb6.jpg"
     },
     {
       "bvid": "BV1jx411P7xu",
@@ -1461,7 +1461,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1jx411P7xu",
       "rank": 104,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/60c2ac6b37aeea5f0ffb4e833e915bf8a40c6b36.jpg"
     },
     {
       "bvid": "BV1Yx411K7dZ",
@@ -1475,7 +1475,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Yx411K7dZ",
       "rank": 105,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/68cd6e198105283fbf7234ccf92ea8f0af799237.jpg"
     },
     {
       "bvid": "BV1Ax411K7jg",
@@ -1489,7 +1489,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1Ax411K7jg",
       "rank": 106,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/69fe0769a8a9f9563aef903f35876df45972ee79.jpg"
     },
     {
       "bvid": "BV1gx411K7BS",
@@ -1503,7 +1503,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1gx411K7BS",
       "rank": 107,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/222478b4b475ad81f87daa1ae14eabca18f73789.jpg"
     },
     {
       "bvid": "BV1Ax411N78N",
@@ -1517,7 +1517,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1Ax411N78N",
       "rank": 108,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/b9ebaef7199ec51a97b63dc7b7ace027588df2eb.jpg"
     },
     {
       "bvid": "BV1gs411Z7Bb",
@@ -1531,7 +1531,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV1gs411Z7Bb",
       "rank": 109,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/564e42ff8ec15f509af314f34fba5742d2abdf4b.jpg"
     },
     {
       "bvid": "BV1hx411P7zc",
@@ -1545,7 +1545,7 @@
       "play_at": "2026-10-26T17:36:50+08:00",
       "url": "https://www.bilibili.com/video/BV1hx411P7zc",
       "rank": 110,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/c038af4d7d1d88d47deb948a056fc9ed9a3305f1.jpg"
     },
     {
       "bvid": "BV1Bx411K7xu",
@@ -1559,7 +1559,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Bx411K7xu",
       "rank": 111,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/6fe1b847c08b87b3a4c324192e7646ab7e01bc28.jpg"
     },
     {
       "bvid": "BV1Lx411P7gE",
@@ -1573,7 +1573,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Lx411P7gE",
       "rank": 112,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/6f4c9b84e3e72e7a15f0567fe8c7476946b6baa6.jpg"
     },
     {
       "bvid": "BV17s411Z7fD",
@@ -1587,7 +1587,7 @@
       "play_at": "2026-10-26T17:19:40+08:00",
       "url": "https://www.bilibili.com/video/BV17s411Z7fD",
       "rank": 113,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/731b4010555af3f1aafd85d9c9779b032f597d88.jpg"
     },
     {
       "bvid": "BV1ex411N799",
@@ -1601,7 +1601,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1ex411N799",
       "rank": 114,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/48bf40a831e9271fe6be9bd20f39e9b7ad896042.jpg"
     },
     {
       "bvid": "BV1Mx411K7BQ",
@@ -1615,7 +1615,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Mx411K7BQ",
       "rank": 115,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/39dd019849f0646a7911cc30f83ae572a8c98694.jpg"
     },
     {
       "bvid": "BV1Qx411K7MB",
@@ -1629,7 +1629,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Qx411K7MB",
       "rank": 116,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/b6f7400cb0d0c8b7cef771a83fc40ef1978bbdcd.jpg"
     },
     {
       "bvid": "BV11x411T7u9",
@@ -1643,7 +1643,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV11x411T7u9",
       "rank": 117,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/0a789c0082019929648e9798c7ec0b0e0424ae9a.jpg"
     },
     {
       "bvid": "BV18x411P79G",
@@ -1657,7 +1657,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV18x411P79G",
       "rank": 118,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/c545b3441e96e2b9f28e77d8979f6aadb775716f.jpg"
     },
     {
       "bvid": "BV1is411Z7Ji",
@@ -1671,7 +1671,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1is411Z7Ji",
       "rank": 119,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/5a6cabe50a8bcb79af71857bc4edf5175b36a414.jpg"
     },
     {
       "bvid": "BV15x411T7iZ",
@@ -1685,7 +1685,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV15x411T7iZ",
       "rank": 120,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/fb4b26454d60abec24bedc8cd41399878f3d82da.jpg"
     },
     {
       "bvid": "BV14x411T7kE",
@@ -1699,7 +1699,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV14x411T7kE",
       "rank": 121,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/569d049cca34d13f87186ea0b92f18fcd9a3df5b.jpg"
     },
     {
       "bvid": "BV1xx411K71H",
@@ -1713,7 +1713,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1xx411K71H",
       "rank": 122,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/6a8b636ec2aa05104a125fdda6083c7714857216.jpg"
     },
     {
       "bvid": "BV1Rx411T7cM",
@@ -1727,7 +1727,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Rx411T7cM",
       "rank": 123,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/99625824228534a6334864edc7fba0d52f31c775.jpg"
     },
     {
       "bvid": "BV1Nx411T765",
@@ -1741,7 +1741,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1Nx411T765",
       "rank": 124,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/05d5442c444cc989c598d31bec9f395fd8dcd28a.jpg"
     },
     {
       "bvid": "BV12x411K7tR",
@@ -1755,7 +1755,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV12x411K7tR",
       "rank": 125,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/122625be7796d577434b658bc69fc2cd2e948d99.jpg"
     },
     {
       "bvid": "BV1Jx411K7Yw",
@@ -1769,7 +1769,7 @@
       "play_at": "2026-10-26T17:36:50+08:00",
       "url": "https://www.bilibili.com/video/BV1Jx411K7Yw",
       "rank": 126,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/1fc9283078f76d017942e9bb51b4637a28b166b3.jpg"
     },
     {
       "bvid": "BV1hx411P7sc",
@@ -1783,7 +1783,7 @@
       "play_at": "2026-10-26T17:30:32+08:00",
       "url": "https://www.bilibili.com/video/BV1hx411P7sc",
       "rank": 127,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/00260f469bb9f835e9a115f7730c87b379370040.jpg"
     },
     {
       "bvid": "BV1Fx411N7sE",
@@ -1797,7 +1797,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1Fx411N7sE",
       "rank": 128,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/cf803587e86b2c59afda4daa58e884f15c674df8.jpg"
     },
     {
       "bvid": "BV1Tx411N7Xx",
@@ -1811,7 +1811,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1Tx411N7Xx",
       "rank": 129,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/939e3863787c2a33ba2ad90d9df2d4b0f3378a1a.jpg"
     },
     {
       "bvid": "BV1Lx411K7wX",
@@ -1825,7 +1825,7 @@
       "play_at": "2026-10-26T17:36:50+08:00",
       "url": "https://www.bilibili.com/video/BV1Lx411K7wX",
       "rank": 130,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/3a65fff9915864ad57ccbf90f8fce6137459ef8c.jpg"
     },
     {
       "bvid": "BV1rx411K7un",
@@ -1839,7 +1839,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1rx411K7un",
       "rank": 131,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/cabaf1b3a34923962b3e609c505ee649a1f231b5.jpg"
     },
     {
       "bvid": "BV1ix411P7V5",
@@ -1853,7 +1853,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1ix411P7V5",
       "rank": 132,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/4fc8b6002648c248b1e7e22af7fdce81286c4b61.jpg"
     },
     {
       "bvid": "BV17x411K7Vj",
@@ -1867,7 +1867,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV17x411K7Vj",
       "rank": 133,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/70529ee98ac2e65136a39407fcc423a9d129b670.jpg"
     },
     {
       "bvid": "BV1px411K73G",
@@ -1881,7 +1881,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1px411K73G",
       "rank": 134,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/fb987a6f8007d21791daefab8bbc2ae813aed5df.jpg"
     },
     {
       "bvid": "BV1Px411N7Bm",
@@ -1895,7 +1895,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1Px411N7Bm",
       "rank": 135,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/f8e09a7b93fe39a656fc99b328b2f8ff735f11ca.jpg"
     },
     {
       "bvid": "BV1ax411P7nj",
@@ -1909,7 +1909,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1ax411P7nj",
       "rank": 136,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/31cf8ad14173fa3e6b793edcdc5a93a6767039a2.jpg"
     },
     {
       "bvid": "BV1bx411P71b",
@@ -1923,7 +1923,7 @@
       "play_at": "2026-10-26T17:39:19+08:00",
       "url": "https://www.bilibili.com/video/BV1bx411P71b",
       "rank": 137,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/fd4e5dc6863700ef3e7ea3c39434fb45eba32261.jpg"
     },
     {
       "bvid": "BV15x411P7Mx",
@@ -1937,7 +1937,7 @@
       "play_at": "2026-10-26T17:22:52+08:00",
       "url": "https://www.bilibili.com/video/BV15x411P7Mx",
       "rank": 138,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/3f0a80e367c7a01f0f45bb8908ac9dd88d1295a3.jpg"
     },
     {
       "bvid": "BV16x411N7bv",
@@ -1951,7 +1951,7 @@
       "play_at": "2026-10-26T17:24:07+08:00",
       "url": "https://www.bilibili.com/video/BV16x411N7bv",
       "rank": 139,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/1b790809f22d0058fe2898ea38e3b385c4628161.jpg"
     },
     {
       "bvid": "BV1zx411T7ts",
@@ -1965,7 +1965,7 @@
       "play_at": "2026-10-26T17:24:07+08:00",
       "url": "https://www.bilibili.com/video/BV1zx411T7ts",
       "rank": 140,
-      "cover": ""
+      "cover": "https://i1.hdslb.com/bfs/archive/83ea14a3732cd0be438dc1dc70d0d8cdc1a72396.jpg"
     },
     {
       "bvid": "BV1Ys411Z7fW",
@@ -1979,7 +1979,7 @@
       "play_at": "2026-10-26T17:22:52+08:00",
       "url": "https://www.bilibili.com/video/BV1Ys411Z7fW",
       "rank": 141,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/3a68f1f74a7d721dd2796798dae676a708185f5b.jpg"
     },
     {
       "bvid": "BV1Jx411K7Ba",
@@ -1993,7 +1993,7 @@
       "play_at": "2026-10-26T17:22:52+08:00",
       "url": "https://www.bilibili.com/video/BV1Jx411K7Ba",
       "rank": 142,
-      "cover": ""
+      "cover": "https://i0.hdslb.com/bfs/archive/a07772b56610f2435a82a858739b77933fa5fb1a.jpg"
     },
     {
       "bvid": "BV14x411T7Y2",
@@ -2007,7 +2007,7 @@
       "play_at": "2026-10-26T17:24:07+08:00",
       "url": "https://www.bilibili.com/video/BV14x411T7Y2",
       "rank": 143,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/380abe268d825a9cc56658dac1e6c04e1bea8113.jpg"
     },
     {
       "bvid": "BV14x411T7Qv",
@@ -2021,7 +2021,7 @@
       "play_at": "2026-10-26T17:24:07+08:00",
       "url": "https://www.bilibili.com/video/BV14x411T7Qv",
       "rank": 144,
-      "cover": ""
+      "cover": "https://i2.hdslb.com/bfs/archive/8729ef7d738d8698dffdccd888ecadca5e2115f3.jpg"
     }
   ]
 }

@@ -3,10 +3,32 @@ import argparse
 import json
 import os
 from pathlib import Path
+from urllib.parse import urlsplit,urlunsplit
 
 from bili_rank import ROOT, Store, now, search_state
 
 FIELDS=('bvid','title','author','pubdate','published_at','duration','play','play_source','play_at','url')
+COVER_HOSTS={'i0.hdslb.com','i1.hdslb.com','i2.hdslb.com'}
+
+
+def cover_url(value):
+    if not isinstance(value,str):return ''
+    value=value.strip()
+    if value.startswith('//'):value='https:'+value
+    try:parts=urlsplit(value)
+    except ValueError:return ''
+    if parts.scheme not in ('http','https') or parts.netloc.lower() not in COVER_HOSTS:return ''
+    return urlunsplit(('https',parts.netloc.lower(),parts.path,parts.query,''))
+
+
+def cached_covers(store):
+    covers={}
+    for row in store.db.execute('SELECT payload FROM pages ORDER BY fetched_at'):
+        for item in json.loads(row[0]).get('result',[]):
+            if not isinstance(item,dict) or item.get('type','video')!='video':continue
+            if item.get('bvid') and (url:=cover_url(item.get('pic'))):
+                covers[item['bvid']]=url
+    return covers
 
 
 def write_json(path,data):
@@ -25,6 +47,7 @@ def build(database=ROOT/'data'/'videos.sqlite3',output=ROOT/'output'/'static',la
     store=Store(Path(database))
     snapshots={}
     try:
+        covers=cached_covers(store)
         for year in range(2009,last_year+1):
             rows=store.rows(year)
             issue=search_state(database,year)
@@ -37,7 +60,7 @@ def build(database=ROOT/'data'/'videos.sqlite3',output=ROOT/'output'/'static',la
             if rows and year in progress.get('years',[]) and completed<expected:
                 status='partial'
                 notice+=' 本轮整理尚未全部完成，当前显示已保存的静态结果。'
-            videos=[{**{k:r[k] for k in FIELDS},'rank':i,'cover':''} for i,r in enumerate(rows,1)]
+            videos=[{**{k:r[k] for k in FIELDS},'rank':i,'cover':covers.get(r['bvid'],'')} for i,r in enumerate(rows,1)]
             snapshots[str(year)]={'year':year,'status':status,'snapshot_at':timestamp,
                 'latest':max((r['play_at'] for r in rows),default=None),'notice':notice,
                 'candidate_count':len(videos),'sitewide_complete':False,'videos':videos}
